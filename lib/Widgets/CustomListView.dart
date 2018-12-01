@@ -4,12 +4,12 @@ import 'package:My_Flickr_App/Fragments/Photo.dart';
 
 class CustomListView extends StatelessWidget {
   final Photos photols;
-
-  CustomListView(this.photols);
+  int currentPhotosCount;
+  CustomListView(this.currentPhotosCount,this.photols);
 
   Widget build(context) {
     return ListView.builder(
-      itemCount: 5,
+      itemCount: currentPhotosCount,
       itemBuilder: (context, int index) {
         return createViewItem(photols.photolist[index], context);
       },
