@@ -1,4 +1,4 @@
-# my_flickr_app
+# My Flickr App
 
 A new Flutter project.
 
