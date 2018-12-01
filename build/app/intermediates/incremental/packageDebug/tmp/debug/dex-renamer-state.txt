@@ -1,4 +1,4 @@
-#Sat Dec 01 03:42:16 EET 2018
+#Sat Dec 01 23:29:28 EET 2018
 base.0=/Users/new/Documents/Udacity Projects/my_flickr_app/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

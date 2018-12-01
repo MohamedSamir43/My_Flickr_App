@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:My_Flickr_App/Fragments/Photos.dart';
-import 'package:My_Flickr_App/Fragments/Photo.dart';
+import 'package:My_Flickr_App/Models/Photos.dart';
+import 'package:My_Flickr_App/Models/Photo.dart';
 
 class CustomListView extends StatelessWidget {
   final Photos photols;
