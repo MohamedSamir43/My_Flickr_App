@@ -8,17 +8,17 @@ class First extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      home: new MyHomePage(),
+      home: new MyFirstPage(),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
+class MyFirstPage extends StatefulWidget {
   @override
-  _MyHomePageState createState() => new _MyHomePageState();
+  _MyFirstPageState createState() => new _MyFirstPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyFirstPageState extends State<MyFirstPage> {
   PhotosSearchLogic _logic = new PhotosSearchLogic();
   static TextEditingController _filter = new TextEditingController();
   Icon _searchIcon = new Icon(Icons.search);
@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int currentPageSize = 10;
   int currentPhotosCount = 0;
 
-  _MyHomePageState() {
+  _MyFirstPageState() {
     _filter.addListener(() {
       if (!_filter.text.isEmpty) {
         setState(() {

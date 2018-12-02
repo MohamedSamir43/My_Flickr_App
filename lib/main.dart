@@ -32,13 +32,13 @@ class MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Pages"),
+        title: new Text("My Flickr App"),
         backgroundColor: Colors.lightBlueAccent,
         bottom: new TabBar(
           controller: controller,
           tabs: <Tab>[
-            new Tab(icon: new Icon(Icons.local_pizza) , text: 'First Page',),
-            new Tab(icon: new Icon(Icons.favorite) , text: 'Second Page',),
+            new Tab(icon: new Icon(Icons.image) , text: 'Search Photos',),
+            new Tab(icon: new Icon(Icons.people) , text: 'Search Groups',),
           ],
         ),
       ),

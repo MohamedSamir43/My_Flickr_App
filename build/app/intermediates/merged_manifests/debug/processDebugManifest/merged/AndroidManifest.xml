@@ -25,7 +25,7 @@
         android:name="io.flutter.app.FlutterApplication"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="My_Flickr App" >
+        android:label="My Flickr App" >
         <activity
             android:name="mohamedsamir1495.myflickrapp.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"

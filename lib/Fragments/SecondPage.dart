@@ -8,19 +8,19 @@ class Second extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      home: new MyHomePage(),
+      home: new MySecondPage(),
     );
   }
 
 
 }
 
-class MyHomePage extends StatefulWidget {
+class MySecondPage extends StatefulWidget {
   @override
-  _MyHomePageState createState() => new _MyHomePageState();
+  _MySecondPageState createState() => new _MySecondPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MySecondPageState extends State<MySecondPage> {
   GroupsSearchLogic _logic = new GroupsSearchLogic();
   static TextEditingController _filter = new TextEditingController();
   Icon _searchIcon = new Icon(Icons.search);
@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int currentPageSize = 10;
   int currentGroupsCount = 0;
 
-  _MyHomePageState() {
+  _MySecondPageState() {
     _filter.addListener(() {
       if (!_filter.text.isEmpty) {
         setState(() {
